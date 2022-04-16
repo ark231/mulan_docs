@@ -1,7 +1,4 @@
 #collections:
 #  pages:
 #    output: true
-markdown: kramdown
-kramdown:
-  input: Kramdown
 theme: jekyll-theme-architect
