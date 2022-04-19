@@ -277,7 +277,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 225)
   wdm (~> 0.1.1)
   webrick (~> 1.7)
 

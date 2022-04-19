@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "Zatlin"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }

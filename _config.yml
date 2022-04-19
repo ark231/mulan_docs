@@ -1,4 +1,7 @@
-#collections:
-#  pages:
-#    output: true
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
 theme: jekyll-theme-architect
+
+title: mulan_docs
+description: >-
+  mulanの文法等をまとめたもの
+url: https://ark231.github.io/mulan_docs/
