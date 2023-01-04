@@ -1,7 +1,7 @@
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', "vendor"]
 theme: jekyll-theme-architect
 
 title: mulan_docs
 description: >-
   mulanの文法等をまとめたもの
-url: https://ark231.github.io/mulan_docs/
+url: https://ark231.github.io
