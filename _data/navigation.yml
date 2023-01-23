@@ -1,0 +1,10 @@
+- name: ホーム
+  link: /
+- name: 文法
+  link: /pages/grammer/grammer.html
+- name: 文字体系
+  link: /pages/output/character.html
+- name: 発音
+  link: /pages/output/sound.html
+- name: 正書法
+  link: /pages/output/orthography.html

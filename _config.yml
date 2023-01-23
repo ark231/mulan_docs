@@ -1,5 +1,5 @@
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', "vendor"]
-theme: jekyll-theme-architect
+theme: jekyll-theme-slate
 
 title: mulan_docs
 description: >-
