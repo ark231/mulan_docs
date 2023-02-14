@@ -1,0 +1,30 @@
+<!-- originates from https://gist.github.com/seanh/500f8fd75cf0a6da298b6b1a9006f22a, and heavily modified -->
+
+{% assign parts = page.url | split: "/" %}
+{% assign current_url = "" %}
+{% assign breadcrumbs = "" | split: "" %}
+
+{% for item in parts %}
+    {% assign current_url = current_url | append: item %}
+    {% assign candidate_dir_url = current_url | append: "/" %}
+    {% if current_url == page.url or candidate_dir_url == page.url %}
+        {% capture breadcrumb_text %}<strong>{{ page.title }}</strong>{% endcapture %}
+        {% assign breadcrumb_text = breadcrumb_text | split: "🗾" %}
+        {% assign breadcrumbs = breadcrumbs | concat: breadcrumb_text %}
+    {% else %}
+        {% assign current_url = current_url | append: "/" %}
+        {% for page in site.pages %}
+            {% if page.url == current_url %}
+                {% capture breadcrumb_text %}{% include breadcrumb_text.html url=current_url default=page.title %}{% endcapture %}
+                {% assign breadcrumb_text = breadcrumb_text | split: "🗾" %}
+                {% assign breadcrumbs = breadcrumbs | concat: breadcrumb_text %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+{% if breadcrumbs != empty %}
+<nav style="display: inline-block;">
+    {% for breadcrumb in breadcrumbs %}{{ breadcrumb }}{% endfor %}
+</nav>
+{% endif %}

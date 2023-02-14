@@ -1,7 +1,7 @@
 ---
 title: 文字体系
 ---
-{% include navigation.html %}
+{% include breadcrumbs.html %}
 
 # 独自体系  
 [フォント](https://github.com/ark231/mulan_fonts)  

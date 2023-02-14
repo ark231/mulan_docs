@@ -1,0 +1,23 @@
+- title: ホーム
+  url: /
+  subnav:
+    - title: 文法
+      url: /pages/grammer/index.html
+      subnav:
+        - title: 品詞
+          url: /pages/grammer/word_class.html
+        - title: 語順
+          url: /pages/grammer/word_order.html
+        - title: 時制
+          url: /pages/grammer/tense.html
+        - title: その他
+          url: /pages/grammer/etc.html
+    - title: 出力
+      url: /pages/output/index.html
+      subnav:
+        - title: 文字体系
+          url: /pages/output/character.html
+        - title: 発音
+          url: /pages/output/sound.html
+        - title: 正書法
+          url: /pages/output/orthography.html

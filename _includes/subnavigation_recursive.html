@@ -1,0 +1,19 @@
+{% assign namespaces = include.place | split: "::" %}
+
+{% if include.subnav_only == nil %}
+{% assign subnav_only = false %}
+{% else %}
+{% assign subnav_only = include.subnav_only %}
+{% endif %}
+
+{% assign current_nav = include.nav | where: "title", namespaces[0] %}
+{% if namespaces.size == 1 %}
+{% if subnav_only %}
+{% assign current_nav = current_nav[0].subnav %}
+{% endif %}
+{% include navigation_recursive.html nav=current_nav %}
+{% else %}
+{% assign next_nav = current_nav[0].subnav %}
+{% assign next_place = namespaces | shift | join: "::" %}
+{% include subnavigation_recursive.html nav=next_nav place=next_place subnav_only=subnav_only%}
+{% endif %}

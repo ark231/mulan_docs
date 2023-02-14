@@ -1,7 +1,8 @@
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', "vendor"]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'vendor', 'nodeployed']
 theme: jekyll-theme-slate
+# remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 
 title: mulan_docs
 description: >-
   mulanの文法等をまとめたもの
-url: https://ark231.github.io
+url: https://ark231.github.io/mulan_docs

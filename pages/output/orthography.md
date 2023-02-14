@@ -1,7 +1,7 @@
 ---
 title: 正書法
 ---
-{% include navigation.html %}
+{% include breadcrumbs.html %}
 
 # 概説  
 基本的にすべての単語をスペースで分けて書く。ただし、語幹と活用語尾の間はハイフンでつなぐ。  
