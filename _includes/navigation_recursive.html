@@ -1,7 +1,7 @@
 <ul>
     {% for item in include.nav %}
     <li>
-        <a href="{{ item.url }}" {% if page.url==item.url %} style="color: red;" {% endif %}>
+        <a href="{{ item.url | relative_url }}" {% if page.url==item.url %} style="color: red;" {% endif %}>
             {{ item.title }}
         </a>
     </li>
