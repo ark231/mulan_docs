@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "github-pages",'~> 227', group: :jekyll_plugins
+gem "github-pages",'~> 228', group: :jekyll_plugins
 gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
