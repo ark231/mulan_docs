@@ -1,6 +1,8 @@
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'vendor', 'nodeployed']
 theme: jekyll-theme-slate
 # remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+plugins:
+  - jekyll-sitemap
 
 title: mulan_docs
 description: >-
