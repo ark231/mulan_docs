@@ -21,3 +21,8 @@
           url: /pages/output/sound.html
         - title: 正書法
           url: /pages/output/orthography.html
+    - title: 資料
+      utl: /pages/references.html
+      subnav:
+        - title: りんごを食べたい58文
+          url: /pages/references/zaslon_list.html
