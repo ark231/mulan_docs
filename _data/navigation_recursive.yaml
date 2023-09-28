@@ -22,12 +22,12 @@
         - title: 正書法
           url: /pages/output/orthography.html
     - title: 資料
-      utl: /pages/references/index.html
+      url: /pages/references/index.html
       subnav:
         - title: りんごを食べたい58文
           url: /pages/references/zaslon_list.html
     - title: その他
-      utl: /pages/etc/index.html
+      url: /pages/etc/index.html
       subnav:
         - title: 暦
           url: /pages/etc/calender.html
