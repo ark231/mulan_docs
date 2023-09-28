@@ -3,5 +3,4 @@ title: 資料
 ---
 {% include breadcrumbs.html %}
 
-* [文法](grammer/index.html)
-* [出力](output/index.html)
+{% include subnavigation_recursive.html nav=site.data.navigation_recursive place="ホーム::資料" subnav_only=true %}
