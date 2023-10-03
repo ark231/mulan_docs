@@ -8,21 +8,27 @@ title: りんごを食べたい58文
 現時点(2023/06/19)ではりんごをまだ造語していないので、芋で代用した。  
 
 1. 私はりんごを食べる．  
-poi ni nardehe-se hizak ne ju curai-ta.  
+poi ni nardehe-psee dizak ne ju curau-ta.  
 1. 私はりんごを食べた．  
-poi ni nardehe-si ne ju curai-ti.  
+poi ni nardehe-psee dizak ne hi ju curau-ti.  
 1. 彼はりんごを食べている．  
-soi ni nardehe-se hizak ne ju cutai-ta hea.
+soi ni nardehe-psee dizak ne ju cutai-ta hea.
 1. 彼女はりんごを食べ終わっている．  
-soi ni nardehe-si he ne ju curai-ti ne.
+soi ni nardehe-psee dizak ne ju curau-te dezipk ne.
 1. 彼女はりんごを食べ終わっていた．  
-soi ni nardehe-si he ne ju curai-ti ne hi.
+soi ni nardehe-psee dizak ne hă ju curau-te dezipk ne hi.
 1. 私の妻はりんごを食べたことがある．  
+poi bu koi ni nardehe-psee dizak ne hă ju curau-te hisăzitzipk.
 1. 私の妻はりんごを毎日食べる．  
+poi bu koi ni nardehe-psee dizak ne hă ju curau-te.
 1. 私と私の妻は昨日りんごを食べた．  
+kus kus get re ri-ke re rihi-ka re ri gum poi renupumore poi bu koi ni nardehe-psee dizak ne hă ju curau-ti.
 1. 私と私の妻は6日前にりんごを食べた．  
+kus kus net re ri-ke re rihi-ka re ri gum poi renupumore poi bu koi ni nardehe-psee dizak ne hă ju curau-ti.
 1. 彼らは明日りんごを食べる．  
+kus kus get re ri-ke re ruhu-ka re ri gum poi renupumore poi bu koi ni nardehe-psee dizak ne hă ju curau-tu.
 1. 彼らは6日後にりんごを食べる．  
+kus kus net re ri-ke re ruhu-ka re ri gum poi renupumore poi bu koi ni nardehe-psee dizak ne hă ju curau-tu.
 1. 彼女らは3日間りんごを食べている．（食事としてりんごだけを食べている）  
 1. 彼女らはりんごを5分間食べ続けている．（りんごを食べる所要時間に5分かかっている）  
     1. 彼女らはりんごを5分で食べ終えた．（5分かかって食べ、現在は食べ終わっている）  
