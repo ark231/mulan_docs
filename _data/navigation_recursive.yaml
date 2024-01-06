@@ -21,6 +21,8 @@
           url: /pages/output/sound.html
         - title: 正書法
           url: /pages/output/orthography.html
+        - title: 数
+          url: /pages/output/number.html
     - title: 資料
       url: /pages/references/index.html
       subnav:
